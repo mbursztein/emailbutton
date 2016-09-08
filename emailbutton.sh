@@ -14,7 +14,7 @@ while read -u 6 f ;do
      # by println to satisfy stupid MS-DOS Computers
      f=${f:0:${#f} - 1}
      if [ $f == "1" ]; then
-      echo "Button Pressed" | sendmail mbursztein@gmail.com
+      echo "Button Pressed" | sendmail [ recipient email address ]
       echo "Button pressed, sending email."
      fi
 done
