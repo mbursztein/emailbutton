@@ -20,7 +20,7 @@ $ sudo apt-get install ssmtp
 $ sudo nano /etc/ssmtp/ssmtp.conf
 ```
 5. Load [emailbutton.ino](https://github.com/mbursztein/emailbutton/blob/master/emailbutton.ino) (this is the Arduino program or "Sketch") onto the Arduino
-6. Save the Shell Script [emailbutton.sh](https://github.com/mbursztein/emailbutton/blob/master/emailbutton.sh) to the /bin/ directory on the Raspberry Pi
+6. Save the Shell Script [emailbutton.sh](https://github.com/mbursztein/emailbutton/blob/master/emailbutton.sh) to the /bin/ directory on the Raspberry Pi (make sure to change the placeholder with the email address of the recipient)
 7. Change permissions on emailbutton.sh with:
 ```sh
 $ sudo chmod 755 emailbutton.sh
